@@ -1,4 +1,5 @@
 #!/bin/sh
+# PATHTOPROJECT=\Source -- set this to the directory location of the directory containing the plugin.xml file.
 
 PATHTOPROJECT=$1
 

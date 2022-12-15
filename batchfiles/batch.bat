@@ -1,9 +1,13 @@
-# set PATHTOPROJECT=\Source -- set this to the directory location of the starting input file (the RDA pub file). Leading backslash, no trailing backslash.
+# set PATHTOPROJECT=\Source -- set this to the directory location of the directory containing the plugin.xml file.
+
+
 set PATHTOPROJECT=%1
 
 cd \Projects\InfocenterUpdater
 
 set WORKINGDIR=%CD%
+
+echo %WORKINGDIR%
 
 cd %WORKINGDIR%\batchfiles
 
